@@ -1,0 +1,44 @@
+<resources>
+    <!-- General text style for titles (e.g., "Welcome back", "Get Started") -->
+    <style name="TitleTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+
+    <style name="SubtitleTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+    <style name="EditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edittext_background</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@android:color/holo_blue_light</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextInputStyle">
+        <item name="boxBackgroundColor">@android:color/white</item>
+        <item name="hintTextColor">@android:color/darker_gray</item>
+        <item name="textFillColor">@android:color/black</item>
+        <item name="endIconTint">@android:color/darker_gray</item>
+        <item name="boxStrokeColor">@android:color/black</item>
+        <item name="boxStrokeWidth">1dp</item>
+    </style>
+
+
+</resources>

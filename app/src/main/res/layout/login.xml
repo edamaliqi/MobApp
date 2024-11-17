@@ -43,7 +43,8 @@
         android:background="@drawable/edittext_background"
         android:drawableEnd="@drawable/ic_baseline_person_24"
         android:hint="Full Name"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/validEmailEditText"
@@ -53,8 +54,8 @@
         android:background="@drawable/edittext_background"
         android:drawableEnd="@drawable/ic_baseline_email_24"
         android:hint="Valid Email"
-
-        android:inputType="textEmailAddress" />
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/phoneNumberEditText"
@@ -64,7 +65,8 @@
         android:background="@drawable/edittext_background"
         android:drawableEnd="@drawable/ic_baseline_phone_android_24"
         android:hint="Phone Number"
-        android:inputType="phone" />
+        android:inputType="phone"
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/strongPasswordEditText"
@@ -74,7 +76,8 @@
         android:background="@drawable/edittext_background"
         android:drawableEnd="@drawable/ic_baseline_lock_24"
         android:hint="Strong Password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
