@@ -1,17 +1,16 @@
-package com.example.createaccountapp
-
 class CredentialsManager {
-    // Function to validate email format
-    fun isEmailValid(email: String): Boolean {
-        if (email.isEmpty()) return false
-        val emailPattern = "[a-zA-Z0-9._-]+@[a-z]+.+[a-z]+"
-        return email.matches(emailPattern.toRegex())
+    fun isValidEmail(email: String): Boolean {
+        return android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches()
     }
 
-    // Function to validate password
-    fun isPasswordValid(password: String): Boolean {
-        return password.isNotEmpty()
+    fun isValidPassword(password: String): Boolean {
+        return password.length >= 6
+    }
+
+    fun login(email: String, password: String): Boolean {
+        return email == "test@te.st" && password == "1234"
     }
 }
+
 
 

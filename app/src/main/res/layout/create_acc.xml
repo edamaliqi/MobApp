@@ -7,7 +7,7 @@
     android:background="@android:color/white"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".LoginActivity">
+    tools:context=".loginactivity">
 
     <!-- Adventure Image -->
     <ImageView
